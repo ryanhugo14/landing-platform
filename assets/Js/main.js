@@ -36,7 +36,7 @@ const toLight = () => {
     html.classList.remove('dark');
     darkText.classList.remove('-translate-x-7');
     darkText.innerText = 'FF';
-    darkSwitchIcon.innerHTML = `<i class="fa-regular fa-sun"></i>`;
+    darkSwitchIcon.innerHTML = `<i class="fa-regular fa-sun text-slate-200"></i>`;
     setTimeout(() => {
         darkSwitchIcon.classList.remove('rotate-[360deg]');
     }, 200);
