@@ -17,7 +17,7 @@ const toDark = () => {
         'rotate-[360deg]',
         'bg-slate-900'
     );
-    darkSwitchIcon.innerHTML = `<i class="fa-solid fa-moon text-slate-100"></i>`;
+    darkSwitchIcon.innerHTML = `<i class="fa-solid fa-moon text-white"></i>`;
     // darkChangeText.innerText = 'Dark'
     darkSwitch.classList.remove('bg-slate-800');
     darkSwitch.classList.add('bg-slate-100');
@@ -36,7 +36,7 @@ const toLight = () => {
     html.classList.remove('dark');
     darkText.classList.remove('-translate-x-7');
     darkText.innerText = 'FF';
-    darkSwitchIcon.innerHTML = `<i class="fa-regular fa-sun text-slate-200"></i>`;
+    darkSwitchIcon.innerHTML = `<i class="fa-regular fa-sun"></i>`;
     setTimeout(() => {
         darkSwitchIcon.classList.remove('rotate-[360deg]');
     }, 200);
